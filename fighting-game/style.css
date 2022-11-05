@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
+body {
+  background: gray;
+}
+#btn {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  background: transparent;
+  padding-bottom: 10px;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+  font-size: 5px;
+  
+  position: absolute;
+  top: 300px;
+  left: 120px;
+}
+#btnb {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+  font-size: 5px;
+  
+  position: absolute;
+  top: 268px;
+  left: 65px;
+}
+#btna {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+  font-size: 5px;
+  
+  position: absolute;
+  top: 300px;
+  left: 10px;
+}
+#btnh {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  border-color: white;
+  font-size: 5px;
+  
+  position: absolute;
+  top: 300px;
+  left: 60px;
+}
+#btnc {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+  font-size: 5px;
+  
+  position: absolute;
+  top: 300px;
+  left: 512px;
+}
+#btne {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+  font-size: 5px;
+  
+  position: absolute;
+  top: 300px;
+  left: 393px;
+}
+#btnf {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+  font-size: 5px;
+  
+  position: absolute;
+  top: 268px;
+  left: 452px;
+}
+#btni {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  border-color: white;
+  font-size: 5px;
+  
+  position: absolute;
+  top: 300px;
+  left: 452px;
+}
