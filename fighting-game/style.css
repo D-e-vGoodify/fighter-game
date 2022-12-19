@@ -5,6 +5,11 @@
 body {
   background: gray;
 }
+
+p {
+  user-select: none;
+}
+
 #btn {
   padding-left: 10px;
   padding-right: 10px;
