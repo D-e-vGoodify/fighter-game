@@ -240,6 +240,7 @@ if (enemy.isAttacking && enemy.framesCurrent === 2) {
 
 animate()
 
+if (!this.dead) {
     let down = document.getElementById('btnh');
     let left = document.getElementById('btna');
     let right = document.getElementById('btn');
@@ -263,7 +264,8 @@ animate()
     attack.ontouchend = function() { enemy.velocity.x = 0;}
     back.ontouchend = function() { enemy.velocity.x = 0;}
     front.ontouchend = function() { enemy.velocity.x = 0;}
-    
+    }
+
     document.getElementById('btnb').addEventListener("click", function() {
       if (btnb) {
         player.velocity.y = -20
