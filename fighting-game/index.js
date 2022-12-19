@@ -240,7 +240,6 @@ if (enemy.isAttacking && enemy.framesCurrent === 2) {
 
 animate()
 
-if (!this.dead) {
     let down = document.getElementById('btnh');
     let left = document.getElementById('btna');
     let right = document.getElementById('btn');
@@ -249,6 +248,7 @@ if (!this.dead) {
     let back = document.getElementById('btne');
     let front = document.getElementById('btnc');
 
+if (!this.dead) {
     down.ontouchstart = function() { player.attack();}
     left.ontouchstart = function() { player.velocity.x = -5;}
     right.ontouchstart = function() { player.velocity.x = 5;}
@@ -264,8 +264,7 @@ if (!this.dead) {
     attack.ontouchend = function() { enemy.velocity.x = 0;}
     back.ontouchend = function() { enemy.velocity.x = 0;}
     front.ontouchend = function() { enemy.velocity.x = 0;}
-    }
-
+    
     document.getElementById('btnb').addEventListener("click", function() {
       if (btnb) {
         player.velocity.y = -20
@@ -277,3 +276,4 @@ document.getElementById('btnf').addEventListener("click", function() {
         enemy.velocity.y = -20
       }
     });
+}
